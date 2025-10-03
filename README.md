@@ -3,5 +3,5 @@
 Also made this to hopefully learn how to use git in the terminal and learn about manual configuration. Configs were made on Arch (yes, I know I sound pretentious) to also learn about building from the down-up (first Arch install).
 
 ## Necessary configs for apps
-**Kitty-conf** - for the terminal emulator kitty \n\n 
-**rofi** - Sweet-inspired(kinda) config for the launcher rofi 
+**Kitty-conf** - for the terminal emulator kitty<br> 
+**rofi** - Sweet-inspired(kinda) config for the launcher rofi<br> 
