@@ -7,9 +7,8 @@
 
 
 configuration{
-    modi: "window,drun,run,filebrowser";
+    modi: "drun,run,filebrowser";
     display-drun: "Applications";
-    display-window: "Windows";
     display-run: "Commands";
     display-filebrowser: "Files";
     show-icons: true;
@@ -46,8 +45,8 @@ window {
 }
 
 mainbox {
-    children: [inputbar, message, mode-switcher, listview];
-    spacing: 30px;
+    children: [inputbar, message, listview];
+    spacing: 10px;
     padding: 30px 0;
     border: 2px;
 }
@@ -76,7 +75,11 @@ case-indicator {
     text-color: @base0F;
 }
 
-mode-switcher, message {
+mode-switcher{
+    enabled: false;
+}
+
+message {
     border: 1px 0;
     border-radius: 0px;
     border-color: @base01;
@@ -96,18 +99,21 @@ button selected {
 listview {
     scrollbar: true;
     margin: 0 10px 0 30px;
-    lines: 5;  /* change the number of entries */
+    lines: 7;  /* change the number of entries */
     spacing: 5px;
 }
 
 scrollbar {
-    background-color: @base03;
-    handle-color: @base0D;
-    handle-width: 10px;
-    border: 0 1px;
-    border-color: @base0D;
-    margin: 0 0 0 20px;
-    radius: 4px;
+    width: 8px;
+    background-color: transparent;
+
+    /* Thumb  */
+    handle-color: rgba(255, 100, 200, 0.8);
+    handle-border-radius: 8px;
+
+    /* Adding a glow around the thumb */
+    handle-outline: 4px;
+    handle-outline-color: rgba(255, 100, 200, 0.6);
 }
 
 element {
