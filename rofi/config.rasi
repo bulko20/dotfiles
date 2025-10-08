@@ -7,10 +7,11 @@
 
 
 configuration{
-    modi: "drun,run,filebrowser";
+    modi: "drun,run,filebrowser,calc";
     display-drun: "Applications";
     display-run: "Commands";
     display-filebrowser: "Files";
+    display-calc: "Calculator";
     show-icons: true;
     font: "JetBrainsMono Nerd Font Medium 13";  
 }

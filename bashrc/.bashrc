@@ -153,7 +153,7 @@ source "$OSH"/oh-my-bash.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias bashconfig="sudo nano ~/.bashrc"
+# alias bashconfig="sudo nano ~/.bashrc"
 # alias ohmybash="sudo nano ~/.oh-my-bash"
 
 # Mandatory fetch when opening terminal
@@ -163,7 +163,9 @@ afetch
 alias cat="bat"
 alias ls="eza"
 alias htop="missioncenter"
+alias sourcebc="source ~/.bashrc"
 
 # Custom exports
 export PATH=$PATH:/usr/lib/qt6/bin
+
 
