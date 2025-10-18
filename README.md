@@ -8,3 +8,4 @@ Also made this to hopefully learn how to use git in the terminal and learn about
 **waybar** - Status bar I made for my own Hyprland setup<br>
 **hypr** - my Hyprland config<br>
 **bashrc** - my bashrc file along with the aliases and commands it runs on startup<br>
+**waypaper** - wallpaper GUI alongside swww
