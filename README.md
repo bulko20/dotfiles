@@ -4,4 +4,7 @@ Also made this to hopefully learn how to use git in the terminal and learn about
 
 ## Necessary configs for apps
 **Kitty-conf** - for the terminal emulator kitty<br> 
-**rofi** - Sweet-inspired(kinda) config for the launcher rofi<br> 
+**rofi** - Sweet-inspired(kinda) config for the launcher rofi<br>
+**waybar** - Status bar I made for my own Hyprland setup<br>
+**hypr** - my Hyprland config<br>
+**bashrc** - my bashrc file along with the aliases and commands it runs on startup<br>
