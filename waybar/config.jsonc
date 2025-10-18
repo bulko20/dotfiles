@@ -8,6 +8,7 @@
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": [
+	"custom/waypaper",
 	"network",
 	"bluetooth",
         "pulseaudio",
@@ -39,6 +40,12 @@
         "format-plugged": "{capacity}% ",
         "format-alt": "{time} {icon}",
         "format-icons": ["", "", "", "", ""]
+    },
+    "custom/waypaper": {
+        "format": "WP 󰸉",
+	"tooltip": "Open Waypaper",
+	"on-click": "waypaper",
+	"interval": 0
     },
     "network": {
         "format-wifi": "{essid} ",
