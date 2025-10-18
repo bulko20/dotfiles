@@ -157,7 +157,7 @@ source "$OSH"/oh-my-bash.sh
 # alias ohmybash="sudo nano ~/.oh-my-bash"
 
 # Mandatory fetch when opening terminal
-afetch
+fastfetch
 
 # Custom aliases
 alias cat="bat"
@@ -169,3 +169,9 @@ alias sourcebc="source ~/.bashrc"
 export PATH=$PATH:/usr/lib/qt6/bin
 
 
+
+export XDG_DATA_HOME="/home/camtono/.local/share"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
