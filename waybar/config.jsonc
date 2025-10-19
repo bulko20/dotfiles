@@ -4,6 +4,7 @@
     "position": "top",
     "height": 25,
     "margin-top": 5,
+    "signal": 10,
     "reload_style_on_change": true,
     "modules-left": ["hyprland/workspaces"],
     "modules-center": ["clock"],
@@ -11,8 +12,12 @@
 	"custom/waypaper",
 	"network",
 	"bluetooth",
+	"mpris",
         "pulseaudio",
         "battery"
+      /*	"tray",
+	"custom/tray_toggle",
+	"group/tray_group" */
     ],
     "hyprland/workspaces": {
 	"format": "{icon}",
@@ -68,6 +73,19 @@
             "tooltip-format-enumerate-connected-battery": "{device_alias}\n{device_address}\n{device_battery_percentage}%",
             "on-click-right": "blueman-manager"
     },
+    "tray": {
+        "icon-size": 18,
+	"spacing": 8
+    },
+    "custom/tray_toggle": {
+        "format": "󰍟",
+        "on-click": "bash -c 'pkill -RTMIN+10 waybar'"    
+    },
+    "group/tray_group": {
+        "orientation": "horizontal",
+        "modules": ["custom/waypaper",
+                    "pulseaudio"]
+    },
     "pulseaudio": {
         "format": "{volume}% {icon}",
         "format-bluetooth": "{volume}% {icon}",
@@ -85,5 +103,13 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
+    },
+    "mpris": {
+        "format": " {title}",
+        "format-paused": " {title}",
+        "interval": 1,
+        "on-click": "playerctl play-pause",
+        "on-click-middle": "playerctl next",
+        "on-click-right": "playerctl previous"
     }
 }    
