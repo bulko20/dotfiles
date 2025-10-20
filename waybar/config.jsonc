@@ -9,10 +9,8 @@
     "modules-left": ["clock", "mpris", "custom/waypaper"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
-	"custom/waypaper",
 	"network",
 	"bluetooth",
-	"mpris",
         "pulseaudio",
         "battery"
       /*	"tray",
