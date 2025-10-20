@@ -6,7 +6,7 @@
     "margin-top": 5,
     "signal": 10,
     "reload_style_on_change": true,
-    "modules-left": ["clock", "mpris", "custom/waypaper"],
+    "modules-left": ["clock", "custom/waypaper", "mpris"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
 	"network",
@@ -103,8 +103,8 @@
         "on-click": "pavucontrol"
     },
     "mpris": {
-        "format": " {title}",
-        "format-paused": " {title}",
+        "format": " {title} - {artist}",
+        "format-paused": " {title} - {artist}",
         "interval": 1,
         "on-click": "playerctl play-pause",
         "on-click-middle": "playerctl next",
