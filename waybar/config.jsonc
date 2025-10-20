@@ -6,8 +6,8 @@
     "margin-top": 5,
     "signal": 10,
     "reload_style_on_change": true,
-    "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["clock"],
+    "modules-left": ["clock", "mpris", "custom/waypaper"],
+    "modules-center": ["hyprland/workspaces"],
     "modules-right": [
 	"custom/waypaper",
 	"network",
