@@ -108,6 +108,7 @@
         "interval": 1,
         "on-click": "playerctl play-pause",
         "on-click-middle": "playerctl next",
-        "on-click-right": "playerctl previous"
+        "on-click-right": "playerctl previous",
+	"max-length": 50
     }
 }    
