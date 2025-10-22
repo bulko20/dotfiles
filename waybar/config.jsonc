@@ -30,7 +30,7 @@
         "on-click": "~/.config/waybar/scripts/wlogout_launch.sh",
         "interval": 0
     },
-    "clock": {
+   "clock": {
 	"format": "{:%I:%M %p} "
     },
     "battery": {
