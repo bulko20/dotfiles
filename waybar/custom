@@ -9,7 +9,7 @@
     },
     "custom/wlogout": {
         "format": "⏻ ",
-        "tooltip": "Logout / Power Menu",
+        "tooltip": "Power Menu",
         "on-click": "~/.config/waybar/scripts/wlogout_launch.sh",
         "interval": 0
     },
