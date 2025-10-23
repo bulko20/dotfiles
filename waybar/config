@@ -1,0 +1,29 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 25,
+    "margin-top": 5,
+    "signal": 10,
+    "reload_style_on_change": true,
+
+    // Include other configs
+    "include": [
+        "~/.config/waybar/modules",
+        "~/.config/waybar/custom"
+    ],
+
+    "modules-left": [
+        "group/left",
+	"mpris"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "network",
+        "bluetooth",
+        "pulseaudio",
+        "battery"
+    ]
+}
+

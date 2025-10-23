@@ -1,0 +1,26 @@
+{
+    "group/left": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/wlogout",
+            "clock",
+            "custom/waypaper"
+        ]
+    },
+    "custom/wlogout": {
+        "format": "⏻ ",
+        "tooltip": "Logout / Power Menu",
+        "on-click": "~/.config/waybar/scripts/wlogout_launch.sh",
+        "interval": 0
+    },
+    "clock": {
+        "format": "{:%I:%M %p}"
+    },
+    "custom/waypaper": {
+        "format": "WP 󰸉 ",
+        "tooltip": "Open Waypaper",
+        "on-click": "waypaper",
+        "interval": 0
+    }
+}
+

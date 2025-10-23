@@ -1,4 +1,3 @@
-// -*- mode: jsonc -*-
 {
     "layer": "top",
     "position": "top",
@@ -6,7 +5,17 @@
     "margin-top": 5,
     "signal": 10,
     "reload_style_on_change": true,
-    "modules-left": ["custom/wlogout", "clock", "custom/waypaper", "mpris"],
+    "modules-left": [
+	{
+	    "name": "group/left",
+	    "modules": [
+	    "custom/wlogout", 
+	    "clock", 
+	    "custom/waypaper"
+        ]
+        },
+	"mpris"
+    ],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
 	"network",
@@ -25,7 +34,7 @@
        }
     },
     "custom/wlogout": {
-        "format": "󰣇",        
+        "format": "⏻",        
         "tooltip": "Logout / Power Menu",
         "on-click": "~/.config/waybar/scripts/wlogout_launch.sh",
         "interval": 0

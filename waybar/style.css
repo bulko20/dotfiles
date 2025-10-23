@@ -1,6 +1,6 @@
 * {
     font-family: 'JetBrainsMono Nerd Font', sans-serif; 
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     border-radius: 10px; 
 }
@@ -73,29 +73,22 @@ button {
 
 /* BACKGROUND COLORS FOR THE MODULES */
 
-#custom-wlogout {
-    padding: 0 15px;
-    margin: 2px;
-    color: #ffffff;
+#left {
     background-color: #14161b;
+    padding: 0 20px;
+    margin: 2px;
+    transition: background 0.3s ease;
+}
+
+#left > * {
+    background: transparent;
+    padding: 0 6px;
 }
 
 #hyprland-workspaces {
     padding: 0 15px;
     margin: 2px;
     background-color: #14161b
-}
-
-#custom-waypaper {
-    padding: 0 15px;
-    margin: 2px;
-    color: #ffffff;
-    background-color: #14161b;
-}
-
-#clock {
-    background-color: #14161b;
-    color: #ffffff;
 }
 
 #bluetooth {
@@ -120,15 +113,11 @@ button {
 
 /* HOVER COLORS */
 
-#custom-wlogout:hover {
+#left:hover {
     background-color: #585858;
 }
 
 #pulseaudio:hover {
-    background-color: #585858;
-}
-
-#custom-waypaper:hover {
     background-color: #585858;
 }
 
