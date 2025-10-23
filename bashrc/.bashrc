@@ -157,7 +157,7 @@ source "$OSH"/oh-my-bash.sh
 # alias ohmybash="sudo nano ~/.oh-my-bash"
 
 # Mandatory fetch when opening terminal
-fastfetch
+fastfetch 
 
 # Custom aliases
 alias cat="bat"
